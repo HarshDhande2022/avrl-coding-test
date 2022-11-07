@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #4472C4;
+    padding: 20px;
+    
+}
+
+.input-box{
+    border-radius: 5px;
+    margin-left: 60px;
+    width: 260px;
+    justify-content: center;  
+}
+.button{
+    font-weight: bold;
+    border-radius: 5px;
+    color: #4472C4;
+    cursor: pointer;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    padding: 30px;
+    border: 20px;
+}
+#cityNames{
+    width: 250px;
+    height: 30px;
+}
+#btn2{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.weather-body{
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 40%;
+    border: black;
+}
+#btn3{
+    width: 80px;
+    cursor: pointer;
+}
